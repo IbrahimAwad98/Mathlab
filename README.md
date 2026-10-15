@@ -1,54 +1,55 @@
 # Mathlab
 
-MATLAB-skript för algebra och kalkylövningar. Projektet innehåller:
+MATLAB scripts for algebra and calculus exercises.
 
-- **Matrixoperationer:** Addition, multiplikation, inversion, egenvärldsanalys och mer.
-- **Komplexa tal:** Räkna med både absolut- och polärform, visuella representationer.
-- **Symbolisk differentiering/integration:** Automatiskt härled och integrera funktioner.
-- **Differentialekvationer:** Lös vanliga ODE/PDE numeriskt och symboliskt.
-- **Sannolikhetsfördelningar:** Beräkning, visualisering och analys av sannolikhetsfördelningar.
-- **2D/3D-visualisering:** Grafer och figurer för att förstå matematiken visuellt.
+- **Matrices:** addition, multiplication, inverse, eigenvalues, and more
+- **Complex numbers:** rectangular and polar form, with plots
+- **Symbolic math:** differentiate and integrate functions
+- **Differential equations:** solve ODEs and PDEs numerically and symbolically
+- **Probability distributions:** compute, plot, and analyze distributions
+- **2D/3D plots:** graphs and figures to see the math
 
-## Kom igång
+## Getting started
 
-1. Klona repot:
-    ```bash
-    git clone https://github.com/IbrahimAwad98/Mathlab.git
-    ```
+1. Clone the repo:
 
-2. Öppna önskat skript/exempelfil i MATLAB.
+   ```bash
+   git clone https://github.com/IbrahimAwad98/Mathlab.git
+   ```
 
-## Struktur
+2. Open a script in MATLAB.
 
-- `matrices/`  Matrixövningar och algoritmer
-- `complex/`  Komplextalsberäkningar
-- `symbolic/`  Symbolisk matematik (diff, int)
-- `differential/` Differentialekvationer
-- `Probability distribution/` Sannolikhetsfördelningar i MATLAB
-- `visualization/` 2D-/3D-plottning
+## Structure
 
-## Exempel på användning
+- `matrices/` - matrix exercises and algorithms
+- `complex/` - complex number calculations
+- `symbolic/` - symbolic math (diff, int)
+- `differential/` - differential equations
+- `Probability distribution/` - probability distributions
+- `visualization/` - 2D and 3D plots
+
+## Example
 
 ```matlab
-% Matrixmultiplikation
+% Matrix multiplication
 A = [1 2; 3 4];
 B = [5 6; 7 8];
 C = A * B
 
-% Symbolisk härledning
+% Symbolic derivative
 syms x
 y = diff(sin(x^2))
 ```
 
-## Förutsättningar
+## Requirements
 
-- MATLAB 2018a eller nyare
-- Symbolic Math Toolbox (för symbolisk matematik)
+- MATLAB R2018a or newer
+- Symbolic Math Toolbox (for the symbolic scripts)
 
-## Kontakt
+## Contact
 
-Skicka frågor eller förslag via [Issues](https://github.com/IbrahimAwad98/Mathlab/issues) eller kontakta [IbrahimAwad98](https://github.com/IbrahimAwad98).
+Open an [issue](https://github.com/IbrahimAwad98/Mathlab/issues) or contact [IbrahimAwad98](https://github.com/IbrahimAwad98).
 
----
+## License
 
-**Licens:** MIT License
+MIT
